@@ -3,19 +3,38 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ObjectSorting
- documentation!
-=======================================================
+Future home of ObjectSorting documentation!
+
+Landing page with general information on how to use this documentation
+=========================================================================================
+
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting Started
+   :maxdepth: 2 
+   :hidden:
+
+   Quickstart/Test.md
+
+.. toctree::
+   :caption: VR Task/Unity
+   :maxdepth: 2 
+   :hidden:
+
+   
+   Unity/Test.md
+   Unity/Quickstart.md
+   
+
+
+.. toctree::
+   :caption: PreProcessing
+   :maxdepth: 2 
+   :hidden:
+
+   PreProcessing/Test2.md
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
