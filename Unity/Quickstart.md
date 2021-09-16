@@ -1,4 +1,4 @@
-# Quickstart and Download
+# Getting Started
 
 
 ```{eval-rst}
@@ -6,6 +6,8 @@
         :maxdepth: 2 
         
 
-        Download.md
+        Start/Download.md
+        Start/Interface.md
+        Start/Structur.md
 
 ```
