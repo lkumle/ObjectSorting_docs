@@ -9,17 +9,20 @@ Future home of ObjectSorting documentation!
 
 Landing page with general information on how to use this documentation.
 
+ALso some information on how people can contact us?
 
 .. toctree::
    :caption: Getting Started
-   :maxdepth: 3
+   :titlesonly:
+   :maxdepth: 2
    :hidden:
 
    Quickstart/Overview.md
 
 .. toctree::
    :caption: VR Task/Unity
-   :maxdepth: 3
+   :maxdepth: 1
+   :titlesonly:
    :hidden:
 
    Unity/Quickstart.md
@@ -29,7 +32,8 @@ Landing page with general information on how to use this documentation.
 
 .. toctree::
    :caption: PreProcessing
-   :maxdepth: 3
+   :titlesonly:
+   :maxdepth: 2
    :hidden:
 
    PreProcessing/Quickstart.md
@@ -40,7 +44,7 @@ Landing page with general information on how to use this documentation.
 
 .. toctree::
    :caption: User Journey
-   :maxdepth: 3
+   :maxdepth: 2
    :hidden:
 
    User/JustRunning.md

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Project Structur &mdash; ObjectSorting Documentation  documentation</title>
+  <title>Project Structure &mdash; ObjectSorting Documentation  documentation</title>
   
 
   
@@ -92,9 +92,8 @@
 <p class="caption"><span class="caption-text">VR Task/Unity</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../Quickstart.html">Getting Started</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="Download.html">Download</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Interface.html">Unity Interface</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Project Structur</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Project Structure</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../BehindScenes.html">Behind the Scenes</a><ul>
@@ -189,13 +188,13 @@
         
           <li><a href="../Quickstart.html">Getting Started</a> &raquo;</li>
         
-      <li>Project Structur</li>
+      <li>Project Structure</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../_sources/Unity/Start/Structur.md.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/Unity/Start/Structure.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -208,8 +207,32 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="tex2jax_ignore mathjax_ignore section" id="project-structur">
-<h1>Project Structur<a class="headerlink" href="#project-structur" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="project-structure">
+<h1>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h1>
+<p>This page gives an overview of the project file structure - so that when you want to run the task or start chaning small details you know where to look for the relevant things.</p>
+<div class="section" id="relevant-folders">
+<h2><strong>Relevant Folders</strong><a class="headerlink" href="#relevant-folders" title="Permalink to this headline">¶</a></h2>
+<p>While the folder structure of any unity project can seem complex and confusing, there are a few folders of special importance on the ObjectSorting VR Task. We will go through them here now. If you are interested in just running the task yourself with none (or minimal) adjustment, the only folders of interest for you are:</p>
+<p><img alt="" src="../../_images/Unity_Structure.png" /></p>
+<div class="section" id="data">
+<h3>1. Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h3>
+<p>This is the folder unity automatcically stores data files for each participant after running the task.</p>
+<div class="warning admonition">
+<p class="admonition-title">Important</p>
+<p>The path to that folder is specified in <strong>LINK TO</strong> LogHandler.cs. If you are changing the name of the main folder, make sure to also change the path in LogHandler.cs (line 321) so that the data file ends up where it belongs.</p>
+</div>
+</div>
+<div class="section" id="sessions">
+<h3>2. Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h3>
+<p>This folder contains the session files (aka stimuli lists) for each participant. The task comes with 30 premade stimuli lists that you can reuse to run participants. However, in case you want to run more participants or modify the session files - check out <strong>LINK TO</strong> Session files.</p>
+</div>
+<div class="section" id="assets">
+<h3>3. Assets<a class="headerlink" href="#assets" title="Permalink to this headline">¶</a></h3>
+<p>This folder is especially important if you want to modify the task - almost all changes will occur in files in this folder. If you just want to rerun the task as described in LINK TO OVERVIEW, you can leave this folder untouched.</p>
+<p>First, there is the <strong>Resource Folder</strong>. This folder contains the stimuli files.<br />
+Also, this folder contains the unity scripts (e.g. ExperimentHandler.cs) - those are the backbone of the task as they control the task behavior. Check out <strong>LINK TO BEHIND THE SCENES</strong> to learn more about those scripts and <strong>LINK TO CHANGING PARAMETERS</strong> for guidance on how and where to tweak task parameters.</p>
+</div>
+</div>
 </div>
 
 
