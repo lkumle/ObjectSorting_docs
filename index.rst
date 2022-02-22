@@ -8,8 +8,14 @@ Future home of ObjectSorting documentation!
 
 
 Landing page with general information on how to use this documentation.
+Give details on what people can find here. 
+- Unity Task
+- PreProcessing & Analysis
+- How to adapt to your own experiment 
 
-ALso some information on how people can contact us?
+ALso some information on how people can contact us. 
+
+Also include relevant publications!
 
 .. toctree::
    :caption: Getting Started
