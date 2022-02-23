@@ -1,7 +1,7 @@
 # Overview
 
 
-This pages provides an overview of the task, all included conditions and core metrics. To download the task, go to (Github)[https://github.com/DejanDraschkow/ObjectCopyingVRTask] or follow the instructions in (Getting started)[https://objectsorting-docs.readthedocs.io/en/latest/Unity/Quickstart.html]. 
+This pages provides an overview of the task, all included conditions and core metrics. To download the task, go to `Github <https://github.com/DejanDraschkow/ObjectCopyingVRTask>`or follow the instructions in :ref: `Getting Started`. 
 
 ### Object Copying Task
 
