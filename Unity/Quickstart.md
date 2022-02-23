@@ -1,4 +1,4 @@
-.. _Quickstart: 
+(Quickstart)=
 
 # Getting Started
 
