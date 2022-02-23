@@ -11,10 +11,10 @@ This documentation details information of the temporally extended “object-copy
 
 What sounds complicated at first is probably best illustrated by putting yourself in the participant’s shoes: 
 
-.. raw:: html
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+</div>
 
 
 
@@ -33,7 +33,7 @@ Completing the task requires participants to search for target objects among dis
 
 ```{admonition} Note
 :class: warning
-Pointers on how to add/remove conditions can be found in [](Changing_task_parameters)and [](User_Journey). 
+Pointers on how to add/remove conditions can be found in [](Changing_task_parameters) and [](User_Journey). 
  
 ```
 
