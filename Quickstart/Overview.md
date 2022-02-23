@@ -33,13 +33,14 @@ Completing the task requires participants to search for target objects among dis
 
 ```{admonition} Note
 :class: warning
-Pointers on how to add/remove conditions can be found in (changing task parameters)[https://objectsorting-docs.readthedocs.io/en/latest/Unity/Changes.html] and (User journeys)[https://objectsorting-docs.readthedocs.io/en/latest/User/MinorChanges.html]. 
+Pointers on how to add/remove conditions can be found in [](Changing_task_parameters)and [](User_Journey). 
  
 ```
 
 ### Important Metrics
 
-Participants behaviour is recorded on a frame-by-frame basis, resulting in a detailed and multivariate data set. Here, a few important metrics are highlighted and a more in-depths overview of available metrics and variables can be found at (Data Logging)[https://objectsorting-docs.readthedocs.io/en/latest/Unity/Behind/DataLogging.html] and (Preprocessing)[https://objectsorting-docs.readthedocs.io/en/latest/PreProcessing/Quickstart.html]. 
+Participants behaviour is recorded on a frame-by-frame basis, resulting in a detailed and multivariate data set. Here, a few important metrics are highlighted and a more in-depths overview of available metrics and variables can be found at [](Data_Logging)
+ and [](Preprocessing). 
 
 #### 1. Working Memory Usage
 
