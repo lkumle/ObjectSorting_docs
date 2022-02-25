@@ -17,6 +17,8 @@ What sounds complicated at first is probably best illustrated by putting yoursel
 </div>
 
 
+   
+
 
 Natural behaviour is a complex system which comprises individual cognitive components interacting in a sophisticated fashion. Leveraging the advantages of VR, the task allows to capture a range of interwoven cognitive functions that are involved in real-world task - such as working memory, sensorimotor decision making,  attentional  allocation,  and  action  planning.  Here, VR allows for the detailed recording of participant’s behaviour by allowing full control over participants’ entire field of view, full information about the experimental environment as well as access to participants’ eye, hand and body movements, and their position in space. 
 
@@ -28,7 +30,7 @@ The version of the task documented here contains two key manipulations (also see
 We introduce different locomotive demands (high vs. low) by changing the distance between the Model and Workspace/Resource (90° vs. 0°). In the high locomotive demand condition, sampling information from the Model requires more movement and rotation. Across multiple versions of the task, it has been shown that increasing locomotive demands reliably shifts important task metrics (e.g. working memory usage) and therefore enables to investigate how behaviour is adapted in the light of different environmental demands (e.g. Draschkow et al. 2021). 
 
 #### 2. Distractor visibility in Resource area
-Completing the task requires participants to search for target objects among distractors in the Resource area. Here, we manipulated the visibility of distractors by making distractors more transparent (high vs. low visibility). In the high visibility condition, distractors and target transparency is equal. In the low visibility condition, distractor transparency is increased by 80%. 
+Completing the task requires participants to search for target objects among distractors in the Resource area (8 targets among 16 distractors). Here, we manipulated the visibility of distractors by making distractors more transparent (high vs. low visibility). In the high visibility condition, distractors and target transparency is equal. In the low visibility condition, distractor transparency is increased by 80%. 
 
 
 ```{admonition} Note
