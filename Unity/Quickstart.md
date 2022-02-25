@@ -32,7 +32,9 @@ Feel free to use it or make it your own!
 Before going into detail about specific task parameters in Unity, this section this section will first cover the task structure and details. 
 Given the length of the task (~ 2 hours with preset trial number), it is divided into two close to identical sessions (see Figure below). Session 1 includes a practice phase (4 trials, one trial in each combination of conditions). Each session needs to be initiated by the experimenter and will result in a separate data file. This is done to A) force the participant to take a break and B) protect against technical failures. Each session includes 4 blocks with all combinations of conditions to ensure observations in each of them in the face of technical failure in one of the sessions. Block order is randomised within in each session. Additionally, each block is divided into 2 “sub-blocks”to account for rotation direction (i.e., rotating to the left or right in order to find the Resource area). Again, the order of sub-blocks is randomised within each block and each sub-block consists of 7 trials. Consequentially, each session includes 56 trials (= 98 trials in total, 32 in each combination of conditions).
 
+
 ![](TaskStructure.png)
+
 
 #### Experimental flow
 Participants progress through the experiment by alternating between an Instruction Room and the Trial Room. Model, Workspace and Resource area are removed in the Instruction Room. Instead, text is displayed on one of the walls and a blue square appears in the middle of the ground. 
